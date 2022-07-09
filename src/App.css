@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.image-bg{
+  width: 100vw;
+  height:45em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../public/images/bg.jpg);
+  backdrop-filter: screen ;
+  
+}
+.img-screen{
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(rgba(32, 32, 32, 0.425)25%, rgb(0, 0, 0));
+  position: absolute;
+}
